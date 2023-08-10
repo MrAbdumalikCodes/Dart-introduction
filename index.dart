@@ -1,11 +1,5 @@
 void main(List<String> args) {
-  int yosh = 12;
-  print(yosh);
-
-  String name = 'John Smith';
-  print(name);
-  print("Name: $name");
-
-  double num = 23.2;
-  print(num);
+  final String town = "New york"; // final === const in javascript
+  // town = 'Washington'; this code is false because final cannot change value
+  print(town);
 }
